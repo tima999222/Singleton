@@ -2,7 +2,7 @@
  
 namespace Singleton
 {
-    internal class dbEntities
+    public class dbEntities
     {
         private static dbEntities entities;
         public List<Person> Person { get; set; }
